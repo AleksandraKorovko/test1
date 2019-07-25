@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>test</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="wrapper">
+	<div class="container">
+        <h1 class="title30-b">Project</h1>
+        <div class="navigation">
+            <div class="navigation1 flex">
+                <div class="navigation-checkbox">
+                    <input type="checkbox" name="forgot" id="forgot2">
+                    <label for="forgot2"></label>
+                </div>
+                <ul class="flex">
+                    <li class="navigation-col1 dropdown-project">
+                        <a href="#">#</a>
+                        <ul class="submenu-project">
+                            <li><a href="#">Project #1723</a></li>
+                            <li><a href="#">Project #1720</a></li>
+                        </ul>
+                    </li>
+                    <li class="navigation-col2 dropdown-client">
+                        <a href="#">Client</a>
+                        <ul class="submenu-client">
+                            <li><a href="#">Stella</a></li>
+                            <li><a href="#">IT corp international</a></li>
+                        </ul>
+                    </li>
+                    <li class="navigation-col3 dropdown-status">
+                        <a href="#">Status</a>
+                        <ul class="submenu-status">
+                            <li><a href="#">Sent</a></li>
+                            <li><a href="#">Draft</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+                <div class="navigation1 flex">
+                <div class="navigation-checkbox">
+                    <input type="checkbox" name="forgot" id="forgot">
+                    <label for="forgot"></label>
+                </div>
+                <ul class="flex">
+                    <li class="navigation-col1"><a href="#">Project #1723</a></li>
+                    <li class="navigation-col2"><a href="#">Stella</a></li>
+                    <li class="navigation-col3">
+                        <select class="navigation-select" name="sent" id="sent">
+                            <option value="Sent" selected="selected">Sent</option>
+                            <option value="No-sent">No sent</option>
+                        </select>
+                    </li>
+                </ul>
+                </div>
+                <div class="navigation1 navigation-wrap flex">
+                <div class="navigation-checkbox">
+                    <input type="checkbox" name="forgot" id="forgot1">
+                    <label for="forgot1"></label>
+                </div>
+                <ul class="flex">
+                    <li class="navigation-col1"><a href="#">Project #1720</a></li>
+                    <li class="navigation-col2"><a href="#">IT corp international</a></li>
+                    <li class="navigation-col3">
+                        <select class="navigation-select" name="draft" id="draft">
+                            <option value="draft" selected="selected">Draft</option>
+                            <option value="draft">Draft1</option>
+                        </select>
+                    </li>
+                </ul>
+                </div>
+            </div>
+				<div class="project-list flex">
+					<div class="project-item-wrap">
+						<div class="project-item">
+							<div class="project-image">
+								<img src="img/img1.png" alt="item">
+							</div>
+                            <div class="project-name">
+                                <h4 class="title18-r">Project #1</h4>
+                                <div class="project-info title14-l">Lerem ipsum dolor sit amet,  consectetur</div>
+                            </div>
+						</div>
+					</div>	
+                    <div class="project-item-wrap">
+                        <div class="project-item">
+                            <div class="project-image">
+                                <img src="img/img2.png" alt="item">
+                            </div>
+                            <div class="project-name">
+                                <h4 class="title18-r">Project #2</h4>
+                                <div class="project-info title14-l">Lerem ipsum dolor sit amet,  consectetur</div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="project-item-wrap">
+                        <div class="project-item">
+                            <div class="project-image">
+                                <img src="img/img3.png" alt="item">
+                            </div>
+                            <div class="project-name">
+                                <h4 class="title18-r">Project #3</h4>
+                                <div class="project-info title14-l">Lerem ipsum dolor sit amet,  consectetur</div>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="project-item-wrap">
+                        <div class="project-item">
+                            <div class="project-image">
+                                <img src="img/img4.png" alt="item">
+                            </div>
+                            <div class="project-name">
+                                <h4 class="title18-r">Project #4</h4>
+                                <div class="project-info title14-l">Lerem ipsum dolor sit amet,  consectetur</div>
+                            </div>
+                        </div>
+                    </div>  
+				</div>
+                <div class="form">
+                        <form class="contact-form">
+                            <h2 class="title20-r">Add project</h2>
+                            <div class="form-info flex">
+                             <div class="form-group">
+                                <div><label for="name">Name </label><sup>*</sup></div>
+                                 <input id="name" type="text" class="form-control" placeholder="" required="required">
+                             </div>
+                             <div class="form-group">
+                                <div><label for="client">Client </label><sup>*</sup></div>
+                                 <input id="client" type="text" class="form-control" placeholder="" required="required">
+                             </div>
+                             <div class="form-group">
+                                 <div><label for="email">Email </label><sup>*</sup></div>
+                                 <input id="email" type="email" class="form-control" placeholder="" required="required">
+                             </div>
+                             <div class="form-group">
+                                 <div><label for="admin">Admin </label><sup>*</sup></div>
+                                 <div class="select-wrapper">
+                                <select id="admin" class="form-control" name="Admin">
+                                    <option value="Admin">Admin</option>
+                                    <option value="Admin1">Admin1</option>
+                                    <option value="Admin2">Admin2</option> 
+                                </select> 
+                            </div>
+                            </div>
+                        </div>
+                            <div class="flex">
+                             <div  class="btn">
+                                <input  class="title15-b" type="submit" name="submit" value="Cancel">
+                            </div>
+                            <div  class="btn1">
+                                <input  class="title15-b" type="submit" name="submit" value="Add">
+                            </div>
+                            </div>
+                         </form>             
+                    </div>
+        </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>
